@@ -450,3 +450,84 @@ x==========x:
 [2026-04-30 07:34:43,054]: >>>>>> stage Model Evaluation Stage completed <<<<<<
 
 x==========x: 
+[2026-04-30 08:03:58,641]: Welcome to the Data Science Project Template!: 
+[2026-04-30 08:03:58,642]: >>>>>> stage Data Ingestion Stage started <<<<<<: 
+[2026-04-30 08:03:58,644]: yaml file: config\config.yaml loaded successfully: 
+[2026-04-30 08:03:58,644]: yaml file: params.yaml loaded successfully: 
+[2026-04-30 08:03:58,645]: yaml file: schema.yaml loaded successfully: 
+[2026-04-30 08:03:58,646]: created directory at: artifacts: 
+[2026-04-30 08:03:58,646]: created directory at: artifacts/data_ingestion: 
+[2026-04-30 08:03:58,647]: File already exists of size: 23329: 
+[2026-04-30 08:03:58,648]: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x: 
+[2026-04-30 08:03:58,648]: >>>>>> stage Data Validation Stage started <<<<<<: 
+[2026-04-30 08:03:58,650]: yaml file: config\config.yaml loaded successfully: 
+[2026-04-30 08:03:58,651]: yaml file: params.yaml loaded successfully: 
+[2026-04-30 08:03:58,652]: yaml file: schema.yaml loaded successfully: 
+[2026-04-30 08:03:58,653]: created directory at: artifacts: 
+[2026-04-30 08:03:58,653]: created directory at: artifacts/data_validation: 
+[2026-04-30 08:03:58,667]: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x: 
+[2026-04-30 08:03:58,667]: >>>>>> stage Data Transformation Stage started <<<<<<: 
+[2026-04-30 08:03:58,669]: yaml file: config\config.yaml loaded successfully: 
+[2026-04-30 08:03:58,669]: yaml file: params.yaml loaded successfully: 
+[2026-04-30 08:03:58,670]: yaml file: schema.yaml loaded successfully: 
+[2026-04-30 08:03:58,672]: created directory at: artifacts: 
+[2026-04-30 08:03:58,673]: created directory at: artifacts/data_transformation: 
+[2026-04-30 08:03:58,687]: Split data into training and test sets: 
+[2026-04-30 08:03:58,687]: (1199, 12): 
+[2026-04-30 08:03:58,688]: (400, 12): 
+[2026-04-30 08:03:58,688]: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x: 
+[2026-04-30 08:03:58,689]: >>>>>> stage Model Trainer stage started <<<<<<: 
+[2026-04-30 08:03:58,690]: yaml file: config\config.yaml loaded successfully: 
+[2026-04-30 08:03:58,691]: yaml file: params.yaml loaded successfully: 
+[2026-04-30 08:03:58,692]: yaml file: schema.yaml loaded successfully: 
+[2026-04-30 08:03:58,693]: created directory at: artifacts: 
+[2026-04-30 08:03:58,693]: created directory at: artifacts/model_trainer: 
+[2026-04-30 08:03:58,700]: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x: 
+[2026-04-30 08:03:58,700]: >>>>>> stage Model Evaluation Stage started <<<<<<: 
+[2026-04-30 08:03:58,701]: yaml file: config\config.yaml loaded successfully: 
+[2026-04-30 08:03:58,702]: yaml file: params.yaml loaded successfully: 
+[2026-04-30 08:03:58,703]: yaml file: schema.yaml loaded successfully: 
+[2026-04-30 08:03:58,704]: created directory at: artifacts: 
+[2026-04-30 08:03:58,704]: created directory at: artifacts/model_evaluation: 
+[2026-04-30 08:04:00,034]: json file saved at: artifacts\model_evaluation\metrics.json: 
+[2026-04-30 08:04:15,759]: >>>>>> stage Model Evaluation Stage completed <<<<<<
+
+x==========x: 
+[2026-04-30 08:04:38,907]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.24:8080: 
+[2026-04-30 08:04:38,907]: [33mPress CTRL+C to quit[0m: 
+[2026-04-30 08:04:38,909]:  * Restarting with stat: 
+[2026-04-30 08:04:39,594]:  * Debugger is active!: 
+[2026-04-30 08:04:39,597]:  * Debugger PIN: 293-568-911: 
+[2026-04-30 08:04:57,797]: 127.0.0.1 - - [30/Apr/2026 08:04:57] "[35m[1mGET / HTTP/1.1[0m" 500 -: 
+[2026-04-30 08:04:57,947]: 127.0.0.1 - - [30/Apr/2026 08:04:57] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -: 
+[2026-04-30 08:04:57,953]: 127.0.0.1 - - [30/Apr/2026 08:04:57] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -: 
+[2026-04-30 08:04:57,990]: 127.0.0.1 - - [30/Apr/2026 08:04:57] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=QH1eazQqzWI0SzPqk3g7 HTTP/1.1" 200 -: 
+[2026-04-30 08:04:58,004]: 127.0.0.1 - - [30/Apr/2026 08:04:58] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -: 
+[2026-04-30 08:05:19,631]: 127.0.0.1 - - [30/Apr/2026 08:05:19] "[35m[1mGET / HTTP/1.1[0m" 500 -: 
+[2026-04-30 08:05:19,651]: 127.0.0.1 - - [30/Apr/2026 08:05:19] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -: 
+[2026-04-30 08:05:19,654]: 127.0.0.1 - - [30/Apr/2026 08:05:19] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -: 
+[2026-04-30 08:05:19,770]: 127.0.0.1 - - [30/Apr/2026 08:05:19] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=QH1eazQqzWI0SzPqk3g7 HTTP/1.1[0m" 304 -: 
+[2026-04-30 08:09:50,978]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.24:8080: 
+[2026-04-30 08:09:50,978]: [33mPress CTRL+C to quit[0m: 
+[2026-04-30 08:09:50,980]:  * Restarting with stat: 
+[2026-04-30 08:09:51,588]:  * Debugger is active!: 
+[2026-04-30 08:09:51,590]:  * Debugger PIN: 293-568-911: 
+[2026-04-30 08:11:05,319]: 127.0.0.1 - - [30/Apr/2026 08:11:05] "GET / HTTP/1.1" 200 -: 
+[2026-04-30 08:11:05,385]: 127.0.0.1 - - [30/Apr/2026 08:11:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -: 
+[2026-04-30 08:11:26,083]: 127.0.0.1 - - [30/Apr/2026 08:11:26] "POST /predict HTTP/1.1" 200 -: 
+[2026-04-30 08:11:50,927]: 192.168.1.24 - - [30/Apr/2026 08:11:50] "GET / HTTP/1.1" 200 -: 
+[2026-04-30 08:11:51,102]: 192.168.1.24 - - [30/Apr/2026 08:11:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -: 
