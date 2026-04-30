@@ -36,3 +36,28 @@ Source-Age: 0
 [2026-04-29 10:13:17,555]: >>>>>> stage Data Ingestion Stage completed <<<<<<
 
 x==========x: 
+[2026-04-29 14:29:24,991]: yaml file: config\config.yaml loaded successfully: 
+[2026-04-29 14:29:24,993]: yaml file: params.yaml loaded successfully: 
+[2026-04-29 14:29:24,995]: yaml file: schema.yaml loaded successfully: 
+[2026-04-29 14:29:24,998]: created directory at: artifacts: 
+[2026-04-29 14:29:24,999]: created directory at: artifacts/data_validation: 
+[2026-04-29 16:38:46,530]: Welcome to the Data Science Project Template!: 
+[2026-04-29 16:38:46,531]: >>>>>> stage Data Ingestion Stage started <<<<<<: 
+[2026-04-29 16:38:46,532]: yaml file: config\config.yaml loaded successfully: 
+[2026-04-29 16:38:46,533]: yaml file: params.yaml loaded successfully: 
+[2026-04-29 16:38:46,535]: yaml file: schema.yaml loaded successfully: 
+[2026-04-29 16:38:46,536]: created directory at: artifacts: 
+[2026-04-29 16:38:46,538]: created directory at: artifacts/data_ingestion: 
+[2026-04-29 16:38:46,539]: File already exists of size: 23329: 
+[2026-04-29 16:38:46,543]: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x: 
+[2026-04-29 16:38:46,544]: >>>>>> stage Data Validation Stage started <<<<<<: 
+[2026-04-29 16:38:46,545]: yaml file: config\config.yaml loaded successfully: 
+[2026-04-29 16:38:46,546]: yaml file: params.yaml loaded successfully: 
+[2026-04-29 16:38:46,548]: yaml file: schema.yaml loaded successfully: 
+[2026-04-29 16:38:46,549]: created directory at: artifacts: 
+[2026-04-29 16:38:46,550]: created directory at: artifacts/data_validation: 
+[2026-04-29 16:38:46,568]: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x: 
