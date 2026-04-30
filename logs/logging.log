@@ -61,3 +61,70 @@ x==========x:
 [2026-04-29 16:38:46,568]: >>>>>> stage Data Validation Stage completed <<<<<<
 
 x==========x: 
+[2026-04-30 03:57:34,603]: yaml file: config\config.yaml loaded successfully: 
+[2026-04-30 03:57:34,605]: yaml file: params.yaml loaded successfully: 
+[2026-04-30 03:57:34,608]: yaml file: schema.yaml loaded successfully: 
+[2026-04-30 03:57:34,611]: created directory at: artifacts: 
+[2026-04-30 03:57:34,613]: created directory at: artifacts/data_transformation: 
+[2026-04-30 03:57:34,643]: Split data into training and test sets: 
+[2026-04-30 03:57:34,645]: (1199, 12): 
+[2026-04-30 03:57:34,647]: (400, 12): 
+[2026-04-30 04:14:50,479]: Welcome to the Data Science Project Template!: 
+[2026-04-30 04:14:50,479]: >>>>>> stage Data Ingestion Stage started <<<<<<: 
+[2026-04-30 04:14:50,483]: yaml file: config\config.yaml loaded successfully: 
+[2026-04-30 04:14:50,486]: yaml file: params.yaml loaded successfully: 
+[2026-04-30 04:14:50,490]: yaml file: schema.yaml loaded successfully: 
+[2026-04-30 04:14:50,492]: created directory at: artifacts: 
+[2026-04-30 04:14:50,493]: created directory at: artifacts/data_ingestion: 
+[2026-04-30 04:14:50,494]: File already exists of size: 23329: 
+[2026-04-30 04:14:50,498]: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x: 
+[2026-04-30 04:14:50,499]: >>>>>> stage Data Validation Stage started <<<<<<: 
+[2026-04-30 04:14:50,503]: yaml file: config\config.yaml loaded successfully: 
+[2026-04-30 04:14:50,505]: yaml file: params.yaml loaded successfully: 
+[2026-04-30 04:14:50,509]: yaml file: schema.yaml loaded successfully: 
+[2026-04-30 04:14:50,511]: created directory at: artifacts: 
+[2026-04-30 04:14:50,512]: created directory at: artifacts/data_validation: 
+[2026-04-30 04:14:50,544]: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x: 
+[2026-04-30 04:14:50,544]: >>>>>> stage Data Transformation Stage started <<<<<<: 
+[2026-04-30 04:14:50,545]: 'DataTransformationTrainingPipeline' object has no attribute 'initiate_data_transformation': 
+Traceback (most recent call last):
+  File "C:\Users\folar\OneDrive\ML DEPLOYMENT\DATASCIENCEPROJECT2\main.py", line 38, in <module>
+    data_transformation.initiate_data_transformation()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataTransformationTrainingPipeline' object has no attribute 'initiate_data_transformation'
+[2026-04-30 04:16:59,262]: Welcome to the Data Science Project Template!: 
+[2026-04-30 04:16:59,263]: >>>>>> stage Data Ingestion Stage started <<<<<<: 
+[2026-04-30 04:16:59,264]: yaml file: config\config.yaml loaded successfully: 
+[2026-04-30 04:16:59,265]: yaml file: params.yaml loaded successfully: 
+[2026-04-30 04:16:59,266]: yaml file: schema.yaml loaded successfully: 
+[2026-04-30 04:16:59,267]: created directory at: artifacts: 
+[2026-04-30 04:16:59,267]: created directory at: artifacts/data_ingestion: 
+[2026-04-30 04:16:59,267]: File already exists of size: 23329: 
+[2026-04-30 04:16:59,269]: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x: 
+[2026-04-30 04:16:59,269]: >>>>>> stage Data Validation Stage started <<<<<<: 
+[2026-04-30 04:16:59,270]: yaml file: config\config.yaml loaded successfully: 
+[2026-04-30 04:16:59,271]: yaml file: params.yaml loaded successfully: 
+[2026-04-30 04:16:59,273]: yaml file: schema.yaml loaded successfully: 
+[2026-04-30 04:16:59,274]: created directory at: artifacts: 
+[2026-04-30 04:16:59,275]: created directory at: artifacts/data_validation: 
+[2026-04-30 04:16:59,288]: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x: 
+[2026-04-30 04:16:59,288]: >>>>>> stage Data Transformation Stage started <<<<<<: 
+[2026-04-30 04:16:59,290]: yaml file: config\config.yaml loaded successfully: 
+[2026-04-30 04:16:59,292]: yaml file: params.yaml loaded successfully: 
+[2026-04-30 04:16:59,294]: yaml file: schema.yaml loaded successfully: 
+[2026-04-30 04:16:59,296]: created directory at: artifacts: 
+[2026-04-30 04:16:59,297]: created directory at: artifacts/data_transformation: 
+[2026-04-30 04:16:59,315]: Split data into training and test sets: 
+[2026-04-30 04:16:59,316]: (1199, 12): 
+[2026-04-30 04:16:59,317]: (400, 12): 
+[2026-04-30 04:16:59,317]: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x: 
