@@ -56,3 +56,10 @@ def load_model(path: Path) -> Any:
     data = joblib.load(path)
     logger.info(f"model loaded from {path}")
     return data
+
+
+@ensure_annotations
+def save_json(path: Path, data: dict):
+    with open(path, "w") as f:
+        json.dump(data, f, indent=4)
+    logger.info(f"json file saved at: {path}")

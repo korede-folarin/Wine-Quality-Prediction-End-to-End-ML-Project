@@ -294,3 +294,159 @@ x==========x:
 [2026-04-30 05:35:34,695]: >>>>>> stage Model Trainer stage completed <<<<<<
 
 x==========x: 
+[2026-04-30 07:22:32,960]: yaml file: config\config.yaml loaded successfully: 
+[2026-04-30 07:22:32,964]: yaml file: params.yaml loaded successfully: 
+[2026-04-30 07:22:32,967]: yaml file: schema.yaml loaded successfully: 
+[2026-04-30 07:22:32,968]: created directory at: artifacts: 
+[2026-04-30 07:22:32,970]: created directory at: artifacts/model_evaluation: 
+[2026-04-30 07:22:34,170]: json file saved at: artifacts\model_evaluation\metrics.json: 
+[2026-04-30 07:26:53,355]: Welcome to the Data Science Project Template!: 
+[2026-04-30 07:26:53,356]: >>>>>> stage Data Ingestion Stage started <<<<<<: 
+[2026-04-30 07:26:53,357]: yaml file: config\config.yaml loaded successfully: 
+[2026-04-30 07:26:53,358]: yaml file: params.yaml loaded successfully: 
+[2026-04-30 07:26:53,360]: yaml file: schema.yaml loaded successfully: 
+[2026-04-30 07:26:53,361]: created directory at: artifacts: 
+[2026-04-30 07:26:53,362]: created directory at: artifacts/data_ingestion: 
+[2026-04-30 07:26:53,362]: File already exists of size: 23329: 
+[2026-04-30 07:26:53,365]: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x: 
+[2026-04-30 07:26:53,366]: >>>>>> stage Data Validation Stage started <<<<<<: 
+[2026-04-30 07:26:53,368]: yaml file: config\config.yaml loaded successfully: 
+[2026-04-30 07:26:53,369]: yaml file: params.yaml loaded successfully: 
+[2026-04-30 07:26:53,370]: yaml file: schema.yaml loaded successfully: 
+[2026-04-30 07:26:53,371]: created directory at: artifacts: 
+[2026-04-30 07:26:53,371]: created directory at: artifacts/data_validation: 
+[2026-04-30 07:26:53,382]: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x: 
+[2026-04-30 07:26:53,383]: >>>>>> stage Data Transformation Stage started <<<<<<: 
+[2026-04-30 07:26:53,384]: yaml file: config\config.yaml loaded successfully: 
+[2026-04-30 07:26:53,385]: yaml file: params.yaml loaded successfully: 
+[2026-04-30 07:26:53,386]: yaml file: schema.yaml loaded successfully: 
+[2026-04-30 07:26:53,387]: created directory at: artifacts: 
+[2026-04-30 07:26:53,387]: created directory at: artifacts/data_transformation: 
+[2026-04-30 07:26:53,406]: Split data into training and test sets: 
+[2026-04-30 07:26:53,406]: (1199, 12): 
+[2026-04-30 07:26:53,406]: (400, 12): 
+[2026-04-30 07:26:53,407]: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x: 
+[2026-04-30 07:26:53,407]: >>>>>> stage Model Trainer stage started <<<<<<: 
+[2026-04-30 07:26:53,408]: yaml file: config\config.yaml loaded successfully: 
+[2026-04-30 07:26:53,410]: yaml file: params.yaml loaded successfully: 
+[2026-04-30 07:26:53,411]: yaml file: schema.yaml loaded successfully: 
+[2026-04-30 07:26:53,412]: created directory at: artifacts: 
+[2026-04-30 07:26:53,412]: created directory at: artifacts/model_trainer: 
+[2026-04-30 07:26:53,420]: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x: 
+[2026-04-30 07:26:53,420]: >>>>>> stage Model Evaluation Stage started <<<<<<: 
+[2026-04-30 07:26:53,420]: 'ModelEvaluationTrainingPipeline' object has no attribute 'main': 
+Traceback (most recent call last):
+  File "C:\Users\folar\OneDrive\ML DEPLOYMENT\DATASCIENCEPROJECT2\main.py", line 65, in <module>
+    model_evaluation.main()
+    ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ModelEvaluationTrainingPipeline' object has no attribute 'main'
+[2026-04-30 07:30:44,182]: Welcome to the Data Science Project Template!: 
+[2026-04-30 07:30:44,183]: >>>>>> stage Data Ingestion Stage started <<<<<<: 
+[2026-04-30 07:30:44,184]: yaml file: config\config.yaml loaded successfully: 
+[2026-04-30 07:30:44,185]: yaml file: params.yaml loaded successfully: 
+[2026-04-30 07:30:44,187]: yaml file: schema.yaml loaded successfully: 
+[2026-04-30 07:30:44,187]: created directory at: artifacts: 
+[2026-04-30 07:30:44,188]: created directory at: artifacts/data_ingestion: 
+[2026-04-30 07:30:44,189]: File already exists of size: 23329: 
+[2026-04-30 07:30:44,192]: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x: 
+[2026-04-30 07:30:44,193]: >>>>>> stage Data Validation Stage started <<<<<<: 
+[2026-04-30 07:30:44,196]: yaml file: config\config.yaml loaded successfully: 
+[2026-04-30 07:30:44,197]: yaml file: params.yaml loaded successfully: 
+[2026-04-30 07:30:44,198]: yaml file: schema.yaml loaded successfully: 
+[2026-04-30 07:30:44,199]: created directory at: artifacts: 
+[2026-04-30 07:30:44,200]: created directory at: artifacts/data_validation: 
+[2026-04-30 07:30:44,211]: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x: 
+[2026-04-30 07:30:44,212]: >>>>>> stage Data Transformation Stage started <<<<<<: 
+[2026-04-30 07:30:44,214]: yaml file: config\config.yaml loaded successfully: 
+[2026-04-30 07:30:44,215]: yaml file: params.yaml loaded successfully: 
+[2026-04-30 07:30:44,216]: yaml file: schema.yaml loaded successfully: 
+[2026-04-30 07:30:44,216]: created directory at: artifacts: 
+[2026-04-30 07:30:44,217]: created directory at: artifacts/data_transformation: 
+[2026-04-30 07:30:44,231]: Split data into training and test sets: 
+[2026-04-30 07:30:44,231]: (1199, 12): 
+[2026-04-30 07:30:44,231]: (400, 12): 
+[2026-04-30 07:30:44,232]: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x: 
+[2026-04-30 07:30:44,232]: >>>>>> stage Model Trainer stage started <<<<<<: 
+[2026-04-30 07:30:44,234]: yaml file: config\config.yaml loaded successfully: 
+[2026-04-30 07:30:44,234]: yaml file: params.yaml loaded successfully: 
+[2026-04-30 07:30:44,236]: yaml file: schema.yaml loaded successfully: 
+[2026-04-30 07:30:44,236]: created directory at: artifacts: 
+[2026-04-30 07:30:44,237]: created directory at: artifacts/model_trainer: 
+[2026-04-30 07:30:44,244]: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x: 
+[2026-04-30 07:30:44,245]: >>>>>> stage Model Evaluation Stage started <<<<<<: 
+[2026-04-30 07:30:44,247]: yaml file: config\config.yaml loaded successfully: 
+[2026-04-30 07:30:44,247]: yaml file: params.yaml loaded successfully: 
+[2026-04-30 07:30:44,249]: yaml file: schema.yaml loaded successfully: 
+[2026-04-30 07:30:44,249]: created directory at: artifacts: 
+[2026-04-30 07:30:44,250]: created directory at: artifacts/model_evaluation: 
+[2026-04-30 07:30:45,530]: json file saved at: artifacts\model_evaluation\metrics.json: 
+[2026-04-30 07:31:01,337]: >>>>>> stage Model Evaluation Stage completed <<<<<<
+
+x==========x: 
+[2026-04-30 07:34:25,886]: Welcome to the Data Science Project Template!: 
+[2026-04-30 07:34:25,887]: >>>>>> stage Data Ingestion Stage started <<<<<<: 
+[2026-04-30 07:34:25,888]: yaml file: config\config.yaml loaded successfully: 
+[2026-04-30 07:34:25,889]: yaml file: params.yaml loaded successfully: 
+[2026-04-30 07:34:25,890]: yaml file: schema.yaml loaded successfully: 
+[2026-04-30 07:34:25,891]: created directory at: artifacts: 
+[2026-04-30 07:34:25,891]: created directory at: artifacts/data_ingestion: 
+[2026-04-30 07:34:25,891]: File already exists of size: 23329: 
+[2026-04-30 07:34:25,893]: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x: 
+[2026-04-30 07:34:25,895]: >>>>>> stage Data Validation Stage started <<<<<<: 
+[2026-04-30 07:34:25,898]: yaml file: config\config.yaml loaded successfully: 
+[2026-04-30 07:34:25,900]: yaml file: params.yaml loaded successfully: 
+[2026-04-30 07:34:25,902]: yaml file: schema.yaml loaded successfully: 
+[2026-04-30 07:34:25,903]: created directory at: artifacts: 
+[2026-04-30 07:34:25,904]: created directory at: artifacts/data_validation: 
+[2026-04-30 07:34:25,913]: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x: 
+[2026-04-30 07:34:25,913]: >>>>>> stage Data Transformation Stage started <<<<<<: 
+[2026-04-30 07:34:25,914]: yaml file: config\config.yaml loaded successfully: 
+[2026-04-30 07:34:25,915]: yaml file: params.yaml loaded successfully: 
+[2026-04-30 07:34:25,916]: yaml file: schema.yaml loaded successfully: 
+[2026-04-30 07:34:25,917]: created directory at: artifacts: 
+[2026-04-30 07:34:25,918]: created directory at: artifacts/data_transformation: 
+[2026-04-30 07:34:25,931]: Split data into training and test sets: 
+[2026-04-30 07:34:25,931]: (1199, 12): 
+[2026-04-30 07:34:25,931]: (400, 12): 
+[2026-04-30 07:34:25,932]: >>>>>> stage Data Transformation Stage completed <<<<<<
+
+x==========x: 
+[2026-04-30 07:34:25,932]: >>>>>> stage Model Trainer stage started <<<<<<: 
+[2026-04-30 07:34:25,934]: yaml file: config\config.yaml loaded successfully: 
+[2026-04-30 07:34:25,935]: yaml file: params.yaml loaded successfully: 
+[2026-04-30 07:34:25,936]: yaml file: schema.yaml loaded successfully: 
+[2026-04-30 07:34:25,937]: created directory at: artifacts: 
+[2026-04-30 07:34:25,938]: created directory at: artifacts/model_trainer: 
+[2026-04-30 07:34:25,944]: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x: 
+[2026-04-30 07:34:25,945]: >>>>>> stage Model Evaluation Stage started <<<<<<: 
+[2026-04-30 07:34:25,947]: yaml file: config\config.yaml loaded successfully: 
+[2026-04-30 07:34:25,948]: yaml file: params.yaml loaded successfully: 
+[2026-04-30 07:34:25,948]: yaml file: schema.yaml loaded successfully: 
+[2026-04-30 07:34:25,949]: created directory at: artifacts: 
+[2026-04-30 07:34:25,950]: created directory at: artifacts/model_evaluation: 
+[2026-04-30 07:34:27,274]: json file saved at: artifacts\model_evaluation\metrics.json: 
+[2026-04-30 07:34:43,054]: >>>>>> stage Model Evaluation Stage completed <<<<<<
+
+x==========x: 
