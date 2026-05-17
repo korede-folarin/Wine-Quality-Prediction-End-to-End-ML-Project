@@ -1,4 +1,4 @@
-# 🍷 Wine Quality Prediction — End-to-End ML Project
+# Wine Quality Prediction — End-to-End ML Project
 
 [![Python](https://img.shields.io/badge/Python-3.10-blue)](https://python.org)
 [![Flask](https://img.shields.io/badge/Flask-API-green)](https://flask.palletsprojects.com)
